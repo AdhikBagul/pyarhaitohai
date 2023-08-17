@@ -1,14 +1,36 @@
 /* Max width 767px */
 @media only screen and (max-width: 767px) {
+
+  .hero-slider-item.bg-1 {
+    background-image: url(../img/slider-img/phth-hindi.jpeg)!important;
+  }
+
+  .hero-slider-item.bg-2 {
+    background-image: url(../img/slider-img/phth-eng.jpeg)!important;
+  }
+  .hero-slider-item.bg-3 {
+    background-image: url(../img/slider-img/phth-hindi.jpeg)!important;
+  }
+
+  .hero-slider-item.bg-4 {
+    background-image: url(../img/slider-img/phth-eng.jpeg)!important;
+  }
+  .hero-slider-item.bg-5 {
+    background-image: url(../img/slider-img/phth-hindi.jpeg)!important;
+  }
+
+  .hero-slider-item.bg-6 {
+    background-image: url(../img/slider-img/phth-eng.jpeg)!important;
+  }
    .meanmenu-reveal{
     display: none!important;
   }
   .mean-nav{
     display: none;
   }
-  .mean-menu {
+  .navbar-expand-md .navbar-collapse {
     display: none!important;
-  }
+}
   .social-media-mobile{
     display: block;
   }
@@ -71,9 +93,9 @@
     height: 100%;
     /*padding-top: 120px;
     padding-bottom: 135px;*/
-    padding-top: 181px;
+    padding-top: 320px;
     padding-bottom: 135px;
-    background-size: contain;
+    background-size: cover;
   }
 
   .hero-slider-text {

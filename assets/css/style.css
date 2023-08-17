@@ -872,7 +872,7 @@ Hero Slider Area Style
 }
 
 .hero-slider-area .social-wrap ul li a i {
-  color: #000000;
+  color: #fff;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
@@ -958,7 +958,7 @@ About Area Style
 } */
 
 .about-content-wrap .about-content {
-  margin-top: 50px;
+  margin-top: 250px;
 }
 
 .about-content-wrap .about-content span {
