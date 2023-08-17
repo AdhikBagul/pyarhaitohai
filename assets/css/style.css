@@ -165,7 +165,9 @@ ul {
   -webkit-box-shadow: unset;
           box-shadow: unset;
 }
-
+.navbar-expand-md .navbar-collapse {
+  display: none!important;
+}
 textarea.form-control {
   height: auto;
 }
@@ -914,12 +916,12 @@ Hero Slider Area Style
 .hero-slider-item.bg-6 {
   background-image: url(../img/slider-img/6.jpg);
 }
-.media-area{
+/*.media-area{
   background-color: black;
 }
 .gallery-area{
   background-color: black;
-}
+}*/
 
 .single-blog .blog-content h3 {
   color: #fff;
@@ -1970,6 +1972,7 @@ Blog Area Style
 
 .single-blog .blog-content {
   margin-top: 25px;
+  display: none;
 }
 
 .single-blog .blog-content ul {
